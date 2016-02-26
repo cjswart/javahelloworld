@@ -6,4 +6,4 @@ COPY src /home/root/javahelloworld/src
 WORKDIR /home/root/javahelloworld
 RUN mkdir bin
 RUN javac -d bin src/HelloWorld.java
-ENTRYPOINT ["java", "-cp", "/home/root/javahelloiworld/bin","HelloWorld"]
+ENTRYPOINT ["java", "-cp", "/home/root/javahelloworld/bin","HelloWorld"]
